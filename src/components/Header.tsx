@@ -15,7 +15,7 @@ export default function Header() {
   ];
 
   return (
-    <header data-section="Header" className="w-full bg-[#090d1f]">
+    <header data-section="Header" className="w-full bg-[var(--color-bg-primary)]">
       <div className="mx-auto flex h-[120px] max-w-[1440px] items-center justify-between px-[112px] py-[30px]">
         {/* Navbar Container */}
         <div className="flex h-[60px] w-full items-center justify-between">
