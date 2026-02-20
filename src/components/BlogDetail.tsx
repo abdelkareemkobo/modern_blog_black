@@ -154,7 +154,7 @@ export default async function BlogDetail({ slug }: BlogDetailProps) {
 
       {/* Tags */}
       <div className="mt-12 flex flex-wrap gap-2">
-        {post.categories?.map((category) => (
+        {(Array.isArray(post.categories) ? post.categories : post.categories ? [post.categories] : []).map((category) => (
           <span
             key={category.slug}
             className="rounded-full border border-[#1a1f35] px-4 py-1.5 text-sm text-[#a3a3a3] transition-colors hover:border-[#2d3352] hover:text-white"

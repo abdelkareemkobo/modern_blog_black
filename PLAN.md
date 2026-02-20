@@ -50,3 +50,4 @@
 - [x] Create blog detail route at /blog/[slug]
 - [x] Update NewsletterForm to save subscribers to database
 - [x] Fix header component to use CSS variable for dark background theme
+- [x] Improve header dark mode styling: standardized CSS variable usage, consistent border colors, better contrast for toggle buttons
