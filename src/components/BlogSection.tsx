@@ -120,6 +120,16 @@ export default async function BlogSection() {
                         <h3 className="text-lg font-semibold text-white transition-colors group-hover:text-[#6366f1]">
                           {post.title}
                         </h3>
+                        <div className="flex flex-wrap gap-2">
+                          {post.categories?.map((category) => (
+                            <span
+                              key={category.name}
+                              className="badge badge-primary badge-sm"
+                            >
+                              {category.name}
+                            </span>
+                          ))}
+                        </div>
                         <p className="text-sm text-[#a3a3a3] line-clamp-2">
                           {post.excerpt}
                         </p>
