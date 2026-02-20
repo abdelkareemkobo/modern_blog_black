@@ -49,3 +49,4 @@
 - [x] Integrate BlogDetail with Supabase data fetching
 - [x] Create blog detail route at /blog/[slug]
 - [x] Update NewsletterForm to save subscribers to database
+- [x] Fix header component to use CSS variable for dark background theme
