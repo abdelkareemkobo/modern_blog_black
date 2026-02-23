@@ -51,3 +51,4 @@
 - [x] Update NewsletterForm to save subscribers to database
 - [x] Fix header component to use CSS variable for dark background theme
 - [x] Improve header dark mode styling: standardized CSS variable usage, consistent border colors, better contrast for toggle buttons
+- [x] Fix generateStaticParams to use non-cookie-dependent Supabase client
